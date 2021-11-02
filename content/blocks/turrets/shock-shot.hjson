@@ -1,0 +1,56 @@
+type: ItemTurret
+size: 2
+health: 700
+range: 225
+targetGround: true
+targetAir: false
+reloadTime: 60
+shots: 2
+spread: 5.5
+alternate: true
+ammoTypes: {
+  pyratite: {
+    damage: 45
+    speed: 5
+    lifetime: 45
+    ammoMultiplier: 3
+    height: 10
+    width: 8
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    incendAmount: 1
+  }
+  plastanium: {
+    damage: 50
+    speed: 5
+    lifetime: 45
+    ammoMultiplier: 2
+    fragBullets: 4
+    height: 10
+    width: 8
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    pierce: 1
+  }
+  silicon: {
+    damage: 35
+    speed: 5
+    lifetime: 45
+    ammoMultiplier: 3
+    reloadMultiplier: 1.5
+    height: 10
+    width: 8
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    homingPower: 1
+   }
+}
+requirements: [
+  copper/250
+  lead/70
+  silicon/50
+  titanium/75
+  plastanium/20
+]
+category: turret
+research: duo
