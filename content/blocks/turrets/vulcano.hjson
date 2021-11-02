@@ -1,0 +1,50 @@
+type: ItemTurret
+size: 3
+health: 1500
+range: 150
+targetGround: true
+targetAir: true
+shots: 1
+spread: 12
+drawOutline: false
+ammoTypes: {
+  lead: {
+    damage: 9
+    speed: 10
+    lifetime: 15
+    ammoMultiplier: 6
+    reloadMultiplier: 1.50
+    height: 3
+    width: 2
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+  }
+  copper: {
+    damage: 6
+    speed: 10
+    lifetime: 15
+    ammoMultiplier: 5
+    height: 4
+    width: 2
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+  }
+  silicon: {
+    damage: 12
+    speed: 10
+    lifetime: 15
+    ammoMultiplier: 6
+    reloadMultiplier: 2
+    height: 4
+    width: 2
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    homingPower: 0.1
+   }
+}
+requirements: [
+  copper/100
+  lead/50
+]
+category: turret
+research: duo
