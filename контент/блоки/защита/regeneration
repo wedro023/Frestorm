@@ -1,0 +1,23 @@
+type: MendProjector
+health: 800
+size: 2
+range: 30
+phaseBoost: 1
+reload: 30
+healPercent: 1
+power: 15
+healPercent: 1
+phaseBoost: 0
+phaseRangeBoost: 0
+requirements: [
+  lead/20
+  silicon/10
+  copper/50
+]
+consumes: {
+  power: 1
+}
+
+category: defense
+research: copper-wall-large
+
