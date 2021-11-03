@@ -43,7 +43,7 @@ ammoTypes: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     homingPower: 1
-   }
+  }
 }
 requirements: [
   copper/250
