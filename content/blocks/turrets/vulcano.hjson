@@ -13,7 +13,7 @@ ammoTypes: {
     speed: 10
     lifetime: 15
     ammoMultiplier: 6
-    reloadMultiplier: 1.50
+    reloadMultiplier: 1.5
     height: 3
     width: 2
     shootEffect: shootSmall
@@ -40,7 +40,7 @@ ammoTypes: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     homingPower: 0.1
-   }
+  }
 }
 requirements: [
   copper/100
